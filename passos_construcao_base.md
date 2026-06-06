@@ -15,23 +15,23 @@
 
 ---
 
-## Etapa 1 — Tipagem do Domínio (`types/`)
+## Etapa 1 — Tipagem do Domínio (`types/`) ✅
 
 Criar os contratos TypeScript que serão usados em toda a aplicação.
 
 ### Passo 1.1 · `types/program.ts`
-- [ ] Definir interface `ProgramUIConfig` — objeto leve de configuração visual por programa
+- [x] Definir interface `ProgramUIConfig` — objeto leve de configuração visual por programa
   - Campos: `id`, `name`, `slug`, `theme` (cores, logo), `enabledSections` (feature flags de UI), `formType` (family | property), `labels` (rótulos customizáveis)
-- [ ] Definir tipo `ProgramId` (string branding)
+- [x] Definir tipo `ProgramId` (string branding)
 
 ### Passo 1.2 · `types/family.ts`
-- [ ] Definir interface `FamilyMember` — nome, CPF, parentesco, data de nascimento, etc.
-- [ ] Definir interface `FamilyRegistration` — dados completos do cadastro familiar
+- [x] Definir interface `FamilyMember` — nome, CPF, parentesco, data de nascimento, etc.
+- [x] Definir interface `FamilyRegistration` — dados completos do cadastro familiar
   - Composição social, renda, endereço, documentos, status de integração CadÚnico
 
 ### Passo 1.3 · `types/api.ts`
-- [ ] Definir tipos genéricos de resposta da API: `ApiResponse<T>`, `PaginatedResponse<T>`, `ApiError`
-- [ ] Definir enums de status: `RegistrationStatus`, `ProcessStage`, `AuditAction`
+- [x] Definir tipos genéricos de resposta da API: `ApiResponse<T>`, `PaginatedResponse<T>`, `ApiError`
+- [x] Definir enums de status: `RegistrationStatus`, `ProcessStage`, `AuditAction`
 
 ---
 
