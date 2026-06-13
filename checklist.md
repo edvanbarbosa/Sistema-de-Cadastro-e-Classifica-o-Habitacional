@@ -4,10 +4,10 @@ Abaixo está o roteiro passo a passo para a implementação da fundação arquit
 
 ## 📋 Progresso das Etapas
 
-- [ ] **Etapa 1: A Base de Dados (Tipos do Domínio)**
-  - [ ] Passo 1: Criar `types/family.ts` (Tipagem para membros da família, renda e dados socioeconômicos)
-  - [ ] Passo 2: Criar `types/unit.ts` (Tipagem para unidades habitacionais, empreendimentos e blocos)
-  - [ ] Passo 3: Criar `types/process.ts` (Tipagem para status de etapas, prazos e logs de auditoria)
+- [x] **Etapa 1: A Base de Dados (Tipos do Domínio)**
+  - [x] Passo 1: Criar `types/family.ts` (Tipagem para membros da família, renda e dados socioeconômicos)
+  - [x] Passo 2: Criar `types/unit.ts` (Tipagem para unidades habitacionais, empreendimentos e blocos)
+  - [x] Passo 3: Criar `types/process.ts` (Tipagem para status de etapas, prazos e logs de auditoria)
 
 - [x] **Etapa 2: A Estrutura de Configuração (`lib/programs/`)**
   - [x] Passo 4: Criar `lib/programs/types.ts` (Interface `ProgramConfig` e sub-interfaces)
@@ -20,8 +20,8 @@ Abaixo está o roteiro passo a passo para a implementação da fundação arquit
   - [x] Passo 9: Criar a pasta de rota dinâmica `app/[programId]/`
   - [x] Passo 10: Criar `app/[programId]/layout.tsx` (Injeção dos providers de programa e usuário)
 
-- [ ] **Etapa 4: Controles de Exibição Visual (`components/`)**
-  - [ ] Passo 11: Criar `components/program/FeatureGate.tsx` (Componente de feature flag)
+- [x] **Etapa 4: Controles de Exibição Visual (`components/`)**
+  - [x] Passo 11: Criar `components/program/FeatureGate.tsx` (Componente de feature flag)
 
 - [ ] **Etapa 5: Contratos para Algoritmos Complexos (`lib/`)**
   - [ ] Passo 12: Criar `lib/scoring/engine.ts` (Interface `ScoringStrategy` do motor de classificação)

@@ -41,5 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # arquivos pdf do trabalho e arquitetura
-SIGAH_Arquitetura_Frontend.pdf
-Sistema de Cadastro e Classificação Habitacional.pdf
+*.pdf
