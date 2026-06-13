@@ -9,10 +9,10 @@ Abaixo está o roteiro passo a passo para a implementação da fundação arquit
   - [ ] Passo 2: Criar `types/unit.ts` (Tipagem para unidades habitacionais, empreendimentos e blocos)
   - [ ] Passo 3: Criar `types/process.ts` (Tipagem para status de etapas, prazos e logs de auditoria)
 
-- [ ] **Etapa 2: A Estrutura de Configuração (`lib/programs/`)**
-  - [ ] Passo 4: Criar `lib/programs/types.ts` (Interface `ProgramConfig` e sub-interfaces)
-  - [ ] Passo 5: Criar `lib/programs/mcmv-far.ts` (Implementação concreta com as regras do MCMV-FAR)
-  - [ ] Passo 6: Criar `lib/programs/index.ts` (Registro/Centralizador de programas ativos)
+- [x] **Etapa 2: A Estrutura de Configuração (`lib/programs/`)**
+  - [x] Passo 4: Criar `lib/programs/types.ts` (Interface `ProgramConfig` e sub-interfaces)
+  - [x] Passo 5: Criar `lib/programs/mcmv-far.ts` (Implementação concreta com as regras do MCMV-FAR)
+  - [x] Passo 6: Criar `lib/programs/index.ts` (Registro/Centralizador de programas ativos)
 
 - [ ] **Etapa 3: A Distribuição do Contexto (`contexts/` e `app/`)**
   - [ ] Passo 7: Criar `contexts/ProgramContext.tsx` (Provider do programa ativo e hook `useProgram()`)
