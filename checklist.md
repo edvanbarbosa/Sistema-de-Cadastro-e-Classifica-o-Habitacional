@@ -23,9 +23,9 @@ Abaixo está o roteiro passo a passo para a implementação da fundação arquit
 - [x] **Etapa 4: Controles de Exibição Visual (`components/`)**
   - [x] Passo 11: Criar `components/program/FeatureGate.tsx` (Componente de feature flag)
 
-- [ ] **Etapa 5: Contratos para Algoritmos Complexos (`lib/`)**
-  - [ ] Passo 12: Criar `lib/scoring/engine.ts` (Interface `ScoringStrategy` do motor de classificação)
-  - [ ] Passo 13: Criar `lib/integrations/base.ts` (Interface `IntegrationAdapter` para bases de dados externas)
+- [x] **Etapa 5: Contratos para Algoritmos Complexos (`lib/`)**
+  - [x] Passo 12: Criar `lib/scoring/engine.ts` (Interface `ScoringStrategy` do motor de classificação)
+  - [x] Passo 13: Criar `lib/integrations/base.ts` (Interface `IntegrationAdapter` para bases de dados externas)
 
 ---
 
